@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&family=Libre+Franklin&display=swap");
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+.button {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.primary-button {
+  color: #ffffff;
+}
+
+.navbar-button:hover {
+  color: #ffffff;
+}
+
+.title {
+  color: #162542;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title-1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.title-2 {
+  font-size: 3.2rem;
+  line-height: 28px;
+}
+
+.title-3 {
+  font-size: 2.4rem;
+  line-height: 28px;
+}
+
+p {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  line-height: 26px;
+}
+p.info {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.copyright {
+  text-align: center;
+  color: #7b8bad;
+  font-size: 1.6rem;
+  line-height: 26px;
+  font-weight: 500;
+}
+.copyright .highlighted {
+  font-weight: 700;
+}

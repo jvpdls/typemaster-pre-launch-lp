@@ -1,0 +1,28 @@
+@use "../abstracts/variables" as var;
+
+.button {
+  padding: 1.1rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  min-width: max-content;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.navbar-button {
+  background-color: var.$light-greyish-blue;
+
+  &:hover {
+    background-color: var.$dark-blue;
+  }
+}
+
+.primary-button {
+  background-color: var.$orange;
+
+  &:hover {
+    background-color: var.$light-orange;
+  }
+}

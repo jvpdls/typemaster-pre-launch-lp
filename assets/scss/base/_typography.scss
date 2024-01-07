@@ -1,0 +1,68 @@
+@use "../abstracts/variables" as var;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&family=Libre+Franklin&display=swap");
+
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+.button {
+  font-size: var.$default-font-size;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.primary-button {
+  color: var.$white;
+}
+
+.navbar-button {
+  &:hover {
+    color: var.$white;
+  }
+}
+
+.title {
+  color: var.$dark-blue;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title-1 {
+  font-size: var.$title-1-font-size;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.title-2 {
+  font-size: var.$title-2-font-size;
+  line-height: 28px;
+}
+
+.title-3 {
+  font-size: var.$title-3-font-size;
+  line-height: 28px;
+}
+
+p {
+  color: var.$dark-greyish-blue;
+  font-size: var.$default-font-size;
+  line-height: 26px;
+
+  &.info {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.copyright {
+  text-align: center;
+  color: var.$dark-greyish-blue;
+  font-size: var.$default-font-size;
+  line-height: 26px;
+  font-weight: 500;
+
+  .highlighted {
+    font-weight: 700;
+  }
+}
