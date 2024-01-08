@@ -1,0 +1,32 @@
+.product__images-container {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 2.4rem;
+    padding-right: 2.4rem;
+    overflow: hidden;
+
+    @media screen and (min-width: 48em) {
+        grid-template-columns: 3fr 7fr;
+        padding-right: 3.9rem;
+        padding-left: 3.9rem;
+        gap: 3.05rem;
+    }
+
+    @media screen and (min-width: 64em) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.hero__image-container {
+    padding-left: 2.4rem;
+    overflow: hidden;
+
+    @media screen and (min-width: 48em) {
+        padding-left: 6.9rem;
+    }
+
+    @media screen and (min-width: 64em) {
+        padding-left: 0;
+    }
+}

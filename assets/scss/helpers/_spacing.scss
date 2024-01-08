@@ -1,4 +1,14 @@
 .has-lateral-padding {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
+
+  @media screen and (min-width: 48em) {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+
+  @media screen and (min-width: 64em) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

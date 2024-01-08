@@ -1,14 +1,46 @@
+.navbar-container {
+  margin-bottom: 6.4rem;
+}
+@media screen and (min-width: 48em) {
+  .navbar-container {
+    margin-bottom: 6.2rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .navbar-container {
+    margin-bottom: 8.3rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6.4rem;
 }
 
 .hero {
   display: grid;
   gap: 6.4rem;
   margin-bottom: 2.4rem;
+}
+@media screen and (min-width: 48em) {
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .hero {
+    gap: 12.5rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero__content.has-lateral-padding {
+    padding-right: 0;
+  }
 }
 
 .hero__title-container {
@@ -27,19 +59,85 @@
   text-align: center;
 }
 
-.hero__image {
-  padding-left: 2.4rem;
-  overflow: hidden;
+.product__characteristics {
+  display: grid;
+  gap: 6.4rem;
+}
+@media screen and (min-width: 48em) {
+  .product__characteristics {
+    grid-template-columns: 1fr 1fr;
+    gap: 6.9rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .product__characteristics {
+    margin-top: 16.8rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+  }
 }
 
-.product__images {
-  display: grid;
-  grid-template-columns: 4fr 6fr;
-  gap: 2.4rem;
-  padding-right: 2.4rem;
-  overflow: hidden;
+.product__characteristic {
+  text-align: center;
+}
+@media screen and (min-width: 48em) {
+  .product__characteristic {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .product__display {
+    display: grid;
+    gap: 12.5rem;
+    grid-template-columns: 7.2fr 2.5fr;
+  }
+}
+
+.product__summary {
+  margin-top: 7.5rem;
+  margin-bottom: 11.1rem;
+}
+@media screen and (min-width: 48em) {
+  .product__summary {
+    display: grid;
+    gap: 3.9rem;
+    grid-template-columns: 3fr 7fr;
+    margin-top: 7.2rem;
+    margin-bottom: 14.2rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .product__summary {
+    margin-top: 11.2rem;
+    margin-bottom: 10.3rem;
+    grid-template-columns: auto;
+    gap: 0.3rem;
+  }
+}
+
+.product__title-container {
+  text-align: center;
+}
+@media screen and (min-width: 48em) {
+  .product__title-container {
+    text-align: left;
+  }
+}
+.product__title-container .title {
+  margin-bottom: 2.4rem;
 }
 
 footer {
   margin-top: 9.6rem;
+}
+@media screen and (min-width: 48em) {
+  footer {
+    margin-top: 14.2rem;
+  }
+}
+@media screen and (min-width: 48em) {
+  footer {
+    margin-top: 12.8rem;
+  }
 }

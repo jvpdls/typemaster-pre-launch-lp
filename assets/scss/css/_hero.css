@@ -3,6 +3,25 @@
   gap: 6.4rem;
   margin-bottom: 2.4rem;
 }
+@media screen and (min-width: 48em) {
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .hero {
+    gap: 12.5rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero__content.has-lateral-padding {
+    padding-right: 0;
+  }
+}
 
 .hero__title-container {
   display: grid;
@@ -18,9 +37,4 @@
 }
 .cta-container .info {
   text-align: center;
-}
-
-.hero__image {
-  padding-left: 2.4rem;
-  overflow: hidden;
 }

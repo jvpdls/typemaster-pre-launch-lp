@@ -1,0 +1,14 @@
+@forward "product__characteristics";
+@forward "product__display";
+
+.product__title-container {
+    text-align: center;
+
+    @media screen and (min-width: 48em) {
+        text-align: left;
+    }
+
+    .title {
+        margin-bottom: 2.4rem;
+    }
+}

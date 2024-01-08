@@ -1,0 +1,23 @@
+.product__characteristics {
+    display: grid;
+    gap: 6.4rem;
+
+    @media screen and (min-width: 48em) {
+        grid-template-columns: 1fr 1fr;
+        gap: 6.9rem;
+    }
+
+    @media screen and (min-width: 64em) {
+        margin-top: 16.8rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+.product__characteristic {
+    text-align: center;
+
+    @media screen and (min-width: 48em) {
+        text-align: left;
+    }
+}

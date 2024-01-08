@@ -1,6 +1,17 @@
+.navbar-container {
+  margin-bottom: 6.4rem;
+
+  @media screen and (min-width: 48em) {
+    margin-bottom: 6.2rem;
+  }
+
+  @media screen and (min-width: 64em) {
+    margin-bottom: 8.3rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6.4rem;
 }

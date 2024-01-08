@@ -1,0 +1,46 @@
+@forward "image-containers";
+@forward "overlay";
+
+// Images by ID
+
+#hero-keyboard {
+  width: calc(100% + 2.4rem);
+
+  @media screen and (min-width: 48em) {
+    width: calc(100% + 6.9rem);
+    height: auto;
+  }
+
+  @media screen and (min-width: 64em) {
+    width: 100%; 
+  }
+}
+
+#left-product-image {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+  @media screen and (min-width: 48em) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+
+// Images by class
+
+.product__image {
+  width: 100%;
+}
+
+.product__icon {
+  border-radius: 20px;
+  margin-bottom: 4.8rem;
+
+  @media screen and (min-width: 48em) {
+    margin-bottom: 4rem;
+  }
+
+  @media screen and (min-width: 64em) {
+    margin-bottom: 4.8rem;
+  }
+}
