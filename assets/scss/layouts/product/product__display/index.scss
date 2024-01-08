@@ -1,4 +1,6 @@
 .product__display {
+    position: relative; 
+    
     @media screen and (min-width: 64em) {
         display: grid;
         gap: 12.5rem;

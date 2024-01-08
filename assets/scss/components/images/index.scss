@@ -26,6 +26,28 @@
   }
 }
 
+#upper-square-pattern {
+  display: none;
+
+  @media screen and (min-width: 64em) {
+    display: inline-block;
+    position: absolute;
+    right: -28.5rem;
+    top: 0;
+  }
+}
+
+#lower-square-pattern {
+  display: none;
+
+  @media screen and (min-width: 64em) {
+    display: inline-block;
+    position: absolute;
+    left: -28.5rem;
+    bottom: 0;
+  }
+}
+
 // Images by class
 
 .product__image {
