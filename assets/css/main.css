@@ -60,6 +60,12 @@ img {
   }
 }
 
+@media screen and (min-width: 48em) {
+  .hero__title-container > .subtitle {
+    font-size: 1.8rem;
+  }
+}
+
 .title-2 {
   font-size: 3.2rem;
   line-height: 28px;
