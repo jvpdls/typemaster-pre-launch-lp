@@ -32,6 +32,11 @@
   font-size: var.$title-1-font-size;
   font-weight: 900;
   line-height: 48px;
+
+  @media screen and (min-width: 48em) {
+    font-size: var.$title-1-font-size-desktop;
+    line-height: 56px;
+  }
 }
 
 .title-2 {
