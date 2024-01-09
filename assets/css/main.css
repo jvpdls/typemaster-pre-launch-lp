@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;900&family=Libre+Franklin&display=swap");
 *,
 *::before,
 *::after {
@@ -79,6 +79,7 @@ img {
 p {
   color: #7b8bad;
   font-size: 1.6rem;
+  font-weight: 500;
   line-height: 26px;
 }
 p.info {

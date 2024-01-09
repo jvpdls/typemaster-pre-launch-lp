@@ -1,5 +1,5 @@
 @use "../abstracts/variables" as var;
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;900&family=Libre+Franklin&display=swap");
 
 * {
   font-family: "Barlow", sans-serif;
@@ -58,6 +58,7 @@
 p {
   color: var.$dark-greyish-blue;
   font-size: var.$default-font-size;
+  font-weight: 500;
   line-height: 26px;
 
   &.info {
