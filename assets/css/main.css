@@ -53,6 +53,12 @@ img {
   font-weight: 900;
   line-height: 48px;
 }
+@media screen and (min-width: 48em) {
+  .title-1 {
+    font-size: 5.6rem;
+    line-height: 56px;
+  }
+}
 
 .title-2 {
   font-size: 3.2rem;
@@ -117,6 +123,11 @@ body {
 }
 .button:hover {
   cursor: pointer;
+}
+@media screen and (min-width: 48em) {
+  .button {
+    padding: 1.6rem 2.6rem;
+  }
 }
 
 .navbar-button {
