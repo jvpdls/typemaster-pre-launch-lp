@@ -6,11 +6,13 @@
   border-radius: 8px;
   min-width: max-content;
 
-  &:hover {
+  &:not(.info):hover {
     cursor: pointer;
   }
 
   @media screen and (min-width: 48em) {
+    width: max-content;
+    height: max-content;
     padding: 1.6rem 2.6rem;
   }
 }
