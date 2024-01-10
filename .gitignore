@@ -1,4 +1,4 @@
-*.html
+includes/*.html
 **/css/
-**/build/
+!build/assets/css/
 .vscode/
