@@ -1,2 +1,3 @@
 includes/*.html
 assets/scss/**/css/
+build/
