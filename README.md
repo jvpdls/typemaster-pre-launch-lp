@@ -9,6 +9,4 @@ This project showcases a responsive landing page for a mechanical wireless keybo
 - JS
 
 ## Live Preview
-See a live preview* of this project [here](https://jvpdls.github.io/typemaster-pre-launch-lp/build/index.html).
-
-<sub><sup>*The build folder was included in this repo so GitHub pages can render its content for preview purposes :).</sub></sup>
+See a live preview of the build of this project [here](https://b8901110-e3d4-4bd3-975d-1f5b08e6ed05-00-2rmbaswwowukn.worf.replit.dev/).
